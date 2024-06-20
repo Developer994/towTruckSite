@@ -12,15 +12,18 @@ export default function Nav() {
           setNavMenu((state) => !state);
         }}
       >
-        <div
-          className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
-        ></div>
-        <div
-          className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
-        ></div>
-        <div
-          className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
-        ></div>
+        <div className='burgerBars'>
+          <div
+            className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
+          ></div>
+          <div
+            className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
+          ></div>
+          <div
+            className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
+          ></div>
+        </div>
+
         <div className={`burgerItems ${navMenu ? 'active' : 'inactive'}`}>
           <span className='burgerItem'>about us</span>
           <span className='burgerItem'>services</span>
