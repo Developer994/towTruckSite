@@ -35,13 +35,15 @@
     width: 100%;
     top: 165px;
     background-color: rgb(0, 225, 255);
-    color: white;
   }
 
   .burgerItem {
     padding: 10px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
   }
+
   .hamburgerContainer {
     display: flex;
     flex-direction: column;
