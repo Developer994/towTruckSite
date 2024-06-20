@@ -17,6 +17,8 @@
 
 .navItem {
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

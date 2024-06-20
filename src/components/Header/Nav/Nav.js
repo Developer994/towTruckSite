@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 export default function Nav() {
@@ -32,10 +33,18 @@ export default function Nav() {
         </div>
       </div>
       <div className='navContainer'>
-        <span className='navItem'>about us</span>
-        <span className='navItem'>services</span>
-        <span className='navItem'>rates</span>
-        <span className='navItem'>contact us</span>
+        <Link to='/AboutUs' className='navItem'>
+          about us
+        </Link>
+        <Link to='/OurServices' className='navItem'>
+          services
+        </Link>
+        <Link to='/Rates' className='navItem'>
+          rates
+        </Link>
+        <Link to='/ContactUs' className='navItem'>
+          contact us
+        </Link>
       </div>
     </div>
   );
