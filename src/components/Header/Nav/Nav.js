@@ -21,6 +21,12 @@ export default function Nav() {
         <div
           className={`burger-bar ${navMenu ? 'clicked' : 'unclicked'}`}
         ></div>
+        <div className={`burgerItems ${navMenu ? 'active' : 'inactive'}`}>
+          <span className='burgerItem'>about us</span>
+          <span className='burgerItem'>services</span>
+          <span className='burgerItem'>rates</span>
+          <span className='burgerItem'>contact us</span>
+        </div>
       </div>
       <div className='navContainer'>
         <span className='navItem'>about us</span>
