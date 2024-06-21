@@ -1,15 +1,95 @@
 .homeContainer {
   width: 100%;
   height: 500px;
+  position: relative;
+  top: 170px;
+  z-index: 1;
 }
 
 .towTruck1 {
-  margin-top: 170px;
   width: 100%;
   height: 100%;
+  margin-bottom: -4px;
 }
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.text1 {
+  position: absolute;
+  bottom: 400px;
+  left: 5%;
+  color: white;
+}
+
+.text2 {
+  position: absolute;
+  font-size: 50px;
+  bottom: 200px;
+  left: 5%;
+  color: orange;
+}
+
+.serviceExamplesContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(37, 36, 36);
+  height: 1000px;
+  width: 100%;
+}
+
+.ourServicesTitle {
+  margin: auto;
+  font-size: 50px;
+  color: rgb(199, 199, 81);
+}
+
+.example {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.exampleText {
+  width: 200px;
+
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.exampleText1 {
+  color: rgb(141, 248, 2);
+}
+
+.exampleText2 {
+  color: rgb(248, 195, 2);
+}
+
+.exampleText3 {
+  color: rgb(2, 248, 121);
+}
+
+.jumperCable {
+  /* position: relative; */
+  top: 30px;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+}
+
 @media only screen and (max-width: 600px) {
-  .towTruck1 {
-    margin-top: 180px;
+  .text1 {
+    width: 80%;
+    top: 90px;
+  }
+  .text2 {
+    top: 200px;
   }
 }
