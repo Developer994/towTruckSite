@@ -1,0 +1,51 @@
+.main-abtUs {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradientAbtUs {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.bckgImage {
+  position: absolute;
+  object-fit: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.abtUsContainer {
+  background-color: aqua;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 270px;
+  margin-bottom: 160px;
+  align-items: center;
+  height: 300px;
+  width: 80%;
+  z-index: 3;
+}
+
+.abtUsH1 {
+  color: blue;
+}
+
+.abtUsPara {
+  width: 80%;
+}

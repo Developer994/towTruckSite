@@ -1,11 +1,14 @@
 import React from 'react';
+import Footer from '../../components/Footer/Footer';
+
+// Styles
 import './Home.css';
 
 export default function Home() {
   return (
     <div className='homeContainer'>
       <div className='subContainer1'>
-        <div className='gradient'></div>
+        <div className='gradientHome'></div>
         <img
           className='towTruck1'
           src={require('../../assets/homeImage.jpg')}
@@ -60,20 +63,51 @@ export default function Home() {
       </div>
 
       <div className='subContainer3'>
-        <h1 className='subContainer3Text1'>
+        <h1 className='subContainer3Content1'>
           <p>If we can't fix it, we know great mechanics who can!</p>
         </h1>
-        <h3 className='subContainer3Text2'>
-          <p className='subContainer3Para2'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-            nihil.
-          </p>
+        <h3 className='subContainer3Content2'>
+          <img
+            src={require('../../assets/mechanics/mechanic1.jpg')}
+            alt=''
+            className='mechanicImage'
+          />
+          <img
+            src={require('../../assets/mechanics/mechanic2.jpg')}
+            alt=''
+            className='mechanicImage'
+          />
+          <img
+            src={require('../../assets/mechanics/mechanic3.jpg')}
+            alt=''
+            className='mechanicImage'
+          />
+          <img
+            src={require('../../assets/mechanics/mechanic4.jpg')}
+            alt=''
+            className='mechanicImage'
+          />
         </h3>
-
-        <p className=''></p>
       </div>
 
-      <div className='subContainer4'></div>
+      <div className='subContainer4'>
+        <div className='subContainer4Content1'>
+          <h1>OUR HOURS:</h1>
+          <h2>24/7, holidays included</h2>
+          <h1>OFFICE HOURS:</h1>
+          <h2>
+            monday to friday, <br /> 9am - 7pm
+          </h2>
+        </div>
+        <div className='subContainer4Content2'>
+          <h1>WE ACCEPT:</h1>
+          <h2>- Debit</h2>
+          <h2>- Interac</h2>
+          <h2>- E-transfer</h2>
+        </div>
+      </div>
+
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.main-rates {
+  position: absolute;
+  top: 170px;
+  height: 620px;
+  width: 100%;
+}
+
+.ratesContainer {
+  height: 100%;
+}
