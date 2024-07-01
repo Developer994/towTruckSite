@@ -5,6 +5,7 @@ import AboutUs from './pages/aboutUs/AboutUs';
 import ContactUs from './pages/contactUs/ContactUs';
 import OurServices from './pages/ourServices/OurServices';
 import Rates from './pages/rates/Rates';
+import Testing from './pages/testing/Testing';
 import Footer from './components/Footer/Footer';
 
 // Styles
@@ -17,7 +18,9 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path='/' element={<Home />}></Route>
+            <Route path='/' element={<Home />}>
+              Home
+            </Route>
             <Route path='/AboutUs' element={<AboutUs />}>
               AboutUs
             </Route>
@@ -30,8 +33,11 @@ function App() {
             <Route path='/Rates' element={<Rates />}>
               Rates
             </Route>
+            <Route path='/Testing' element={<Testing />}></Route>
           </Routes>
         </BrowserRouter>
+
+        <Footer />
       </div>
     </>
   );

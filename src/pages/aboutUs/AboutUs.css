@@ -1,51 +1,37 @@
 .main-abtUs {
-  position: relative;
-  height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.gradientAbtUs {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.4;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  position: absolute;
 }
 
 .bckgImage {
-  position: absolute;
-  object-fit: cover;
-  display: block;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
+  position: relative;
+  top: 170px;
+  height: 650px;
 }
 
 .abtUsContainer {
-  background-color: aqua;
-  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  bottom: 250px;
+}
+
+.abtUsSubContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 270px;
-  margin-bottom: 160px;
   align-items: center;
-  height: 300px;
-  width: 80%;
-  z-index: 3;
+  width: 600px;
+  background-color: aqua;
 }
 
 .abtUsH1 {
   color: blue;
+  width: 40%;
 }
 
 .abtUsPara {
-  width: 80%;
+  width: 60%;
 }

@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div className='homeContainer'>
       <div className='subContainer1'>
-        <div className='gradientHome'></div>
         <img
           className='towTruck1'
           src={require('../../assets/homeImage.jpg')}
@@ -106,8 +105,6 @@ export default function Home() {
           <h2>- E-transfer</h2>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

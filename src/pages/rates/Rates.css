@@ -1,10 +1,40 @@
 .main-rates {
-  position: absolute;
-  top: 170px;
-  height: 620px;
+  height: 720px;
   width: 100%;
 }
 
 .ratesContainer {
-  height: 100%;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+}
+
+.ratesSubContainer {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 10px 20px 10px 0;
+  background-color: orangered;
+  box-shadow: -15px 15px 10px;
+}
+
+.servicesAndRates {
+  display: flex;
+}
+
+.ulRates {
+  list-style: none;
+}
+
+.ulRates li {
+  margin-bottom: 10px;
 }

@@ -1,0 +1,21 @@
+.testingContainer {
+  top: 300px;
+  width: 760px;
+  height: 600px;
+  position: relative;
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.2;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover;
+  display: block; */
+}
