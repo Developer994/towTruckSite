@@ -8,8 +8,18 @@ export default function Rates() {
   return (
     <div className='main-rates'>
       <div className='ratesContainer'>
+        <div className='ourRatesIntroContainer'>
+          <img
+            className='ourRatesImg'
+            src={require('../../assets/ourRatesIntro.jpg')}
+            alt=''
+          />
+          <div className='ourRatesIntro'>
+            <h1>Our Rates</h1>
+            <h2>We've got outstanding rates for our services!</h2>
+          </div>
+        </div>
         <div className='ratesSubContainer'>
-          <h1>Rates</h1>
           <div className='servicesAndRates'>
             <div className='service'>
               <h2>
@@ -26,14 +36,14 @@ export default function Rates() {
             <div className='rate'>
               <h2>
                 <ul className='ulRates'>
-                  <li>$4/km</li>
-                  <li>$10/km</li>
+                  <li>$x/km</li>
+                  <li>$x/km</li>
                   <br />
-                  <li>$4/km</li>
+                  <li>$x/km</li>
                   <br />
-                  <li>$2.5/tire</li>
-                  <li>$7/tire</li>
-                  <li>$5/km</li>
+                  <li>$x/tire</li>
+                  <li>$x/tire</li>
+                  <li>$x</li>
                 </ul>
               </h2>
             </div>

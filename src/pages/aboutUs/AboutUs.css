@@ -1,5 +1,6 @@
 .main-abtUs {
   width: 100%;
+  height: 100%;
 }
 
 .bckgImage {
@@ -11,11 +12,12 @@
 .abtUsContainer {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100px;
-  bottom: 250px;
+  bottom: 400px;
+  height: 1500px;
 }
 
 .abtUsSubContainer {
@@ -24,14 +26,119 @@
   justify-content: center;
   align-items: center;
   width: 600px;
-  background-color: aqua;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px;
 }
 
-.abtUsH1 {
-  color: blue;
-  width: 40%;
+.abtUsTitle {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(249, 205, 125);
+  width: 60%;
+  text-shadow: 1px 1px black;
 }
 
 .abtUsPara {
-  width: 60%;
+  text-align: center;
+  width: 80%;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.topServicesContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.topServicesTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 50px;
+  font-style: italic;
+  height: 100%;
+}
+
+.topServicesList {
+  font-family: 'Anton SC', sans-serif;
+  font-size: 30px;
+  font-weight: 9000;
+  font-style: normal;
+}
+
+.topServicesList p {
+  background-color: orange;
+  padding: 30px;
+  transform: skew(-5deg, -5deg);
+}
+
+.otherServicesContainer {
+  position: relative;
+  top: 200px;
+  padding-bottom: 300px;
+  margin-bottom: -200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(46, 45, 45);
+  color: white;
+}
+
+.otherServicesTitle {
+  text-transform: uppercase;
+  transform: skew(-15deg, 0);
+  font-size: 50px;
+  color: rgb(255, 180, 40);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.otherServicesPara {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Anton SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.otherServicesImages {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.otherServicesImage {
+  width: 150px;
+  height: 150px;
+}
+
+.moreServicesButton {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin: 40px 0;
+  padding: 10px 10px;
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 40px;
 }

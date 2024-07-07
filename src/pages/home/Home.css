@@ -1,3 +1,7 @@
+.main-container-home {
+  width: 100%;
+}
+
 .homeContainer {
   width: 100%;
   height: 100%;
@@ -8,6 +12,7 @@
 .subContainer1 {
   position: relative;
   top: 20px;
+  width: 100%;
   height: 700px;
 }
 
@@ -20,6 +25,7 @@
   position: relative;
   bottom: 480px;
   left: 5%;
+  width: 700px;
   color: white;
 }
 
@@ -28,6 +34,7 @@
   font-size: 50px;
   bottom: 450px;
   left: 5%;
+  width: 80%;
   color: orange;
 }
 
@@ -152,6 +159,9 @@
 }
 
 @media only screen and (max-width: 850px) {
+  /* .subContainer1Text2 {
+    width: 500px;
+  } */
   .mechanicImage {
     width: 120px;
     height: 120px;
