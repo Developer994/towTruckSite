@@ -50,7 +50,6 @@ export default function Rates() {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }

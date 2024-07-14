@@ -9,13 +9,13 @@ export default function AboutUs() {
     <div className='main-abtUs'>
       <img
         className='bckgImage'
-        src={require('../../assets/towing.jpg')}
+        src={require('../../assets/abtUs/abtUsBkg.jpg')}
         alt=''
       />
 
       <div className='abtUsContainer'>
         <div className='abtUsSubContainer'>
-          <p className='abtUsTitle'>Let us introduce ourselves!</p>
+          <h1 className='abtUsTitle'>Let us introduce ourselves!</h1>
           <p className='abtUsPara'>
             <h3>
               We at Quick Towing Ltd. are a family-owned business that started

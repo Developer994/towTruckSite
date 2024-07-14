@@ -79,3 +79,9 @@
 .ulRates li {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .ourRatesIntroContainer h2 {
+    width: 300px;
+  }
+}

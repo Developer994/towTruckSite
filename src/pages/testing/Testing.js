@@ -8,7 +8,7 @@ export default function Testing() {
     <div className='main-container-testing'>
       <div className='testingContainer'>
         <div className='gradient'></div>
-        <img src={require('../../assets/ourRatesIntro.jpg')} alt='' />
+        <img src={require('../../assets/abtUs/abtUsBkg.jpg')} alt='' />
       </div>
     </div>
   );

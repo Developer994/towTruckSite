@@ -15,9 +15,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   bottom: 400px;
-  height: 1500px;
+  height: 1400px;
 }
 
 .abtUsSubContainer {
@@ -26,26 +25,21 @@
   justify-content: center;
   align-items: center;
   width: 600px;
-  background-color: whitesmoke;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px;
 }
 
 .abtUsTitle {
   text-align: center;
   font-size: 50px;
-  color: rgb(249, 205, 125);
-  width: 60%;
-  text-shadow: 1px 1px black;
+  bottom: 450px;
+  left: 5%;
+  width: 80%;
+  color: orange;
 }
 
 .abtUsPara {
   text-align: center;
   width: 80%;
-  font-family: 'Abril Fatface', serif;
-  font-weight: 400;
-  font-style: normal;
-  color: gray;
+  color: white;
   text-transform: uppercase;
 }
 
