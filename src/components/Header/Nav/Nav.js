@@ -1,9 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
 export default function Nav() {
   const [navMenu, setNavMenu] = useState(false);
+
+  let ref = useRef();
+
+  useEffect(() => {
+    const closeDropdown = (e) => {
+      if (!ref.current.contains(e.target)) {
+        setNavMenu(false);
+      }
+    };
+    document.body.addEventListener('click', closeDropdown);
+
+    return () => document.body.removeEventListener('click', closeDropdown);
+  }, []);
 
   return (
     <div className='mainNavContainer'>
@@ -12,6 +25,7 @@ export default function Nav() {
         onClick={() => {
           setNavMenu((state) => !state);
         }}
+        ref={ref}
       >
         <div className='burgerBars'>
           <div
