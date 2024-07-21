@@ -85,6 +85,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 600px;
   width: 100%;
   background-color: rgb(46, 45, 45);
   color: white;
@@ -93,8 +94,8 @@
 .otherServicesTitle {
   text-transform: uppercase;
   transform: skew(-15deg, 0);
-  font-size: 50px;
   color: rgb(255, 180, 40);
+  font-size: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-style: italic;
@@ -119,7 +120,7 @@
   height: 150px;
 }
 
-.moreServicesButton {
+.moreServicesBtn {
   position: relative;
   top: 100px;
   text-align: center;
@@ -135,4 +136,83 @@
   font-weight: 1000;
   font-style: normal;
   font-size: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+  .topServicesTitle {
+    width: 40%;
+    font-size: 45px;
+  }
+
+  .topServicesContainer {
+    height: 280px;
+    padding: 45px 0;
+  }
+
+  .topServicesList {
+    font-size: 30px;
+    width: 40%;
+  }
+
+  .topServicesList p {
+    background-color: orange;
+    padding: 18px;
+    transform: skew(-5deg, -5deg);
+  }
+
+  .otherServicesPara {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .otherServicesImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .abtUsSubContainer {
+    width: 100%;
+  }
+
+  .topServicesContainer {
+    height: 220px;
+    padding-bottom: 0;
+  }
+
+  .topServicesList {
+    font-size: 25px;
+  }
+
+  .topServicesList p {
+    background-color: orange;
+    padding: 10px;
+    transform: skew(-5deg, -5deg);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .abtUsContainer {
+    height: 1700px;
+  }
+  .topServicesContainer {
+    height: 380px;
+  }
+  .topServicesTitle {
+    font-size: 30px;
+  }
+
+  .otherServicesContainer {
+    height: 670px;
+  }
+
+  .otherServicesTitle {
+    font-size: 40px;
+  }
+
+  .moreServicesBtn {
+    width: 280px;
+  }
 }

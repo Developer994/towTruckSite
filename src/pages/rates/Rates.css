@@ -38,7 +38,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: white; */
 }
 
 .ratesContainer {
@@ -83,5 +82,25 @@
 @media only screen and (max-width: 600px) {
   .ourRatesIntroContainer h2 {
     width: 300px;
+  }
+  .ratesSubContainer {
+    width: 300px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .ourRatesIntroContainer h2 {
+    margin-left: 10%;
+  }
+  .ratesSubContainer {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .ourRatesIntroContainer h2 {
+    width: 80%;
+    margin-left: 5%;
   }
 }
