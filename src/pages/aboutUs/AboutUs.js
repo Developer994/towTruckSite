@@ -55,11 +55,10 @@ export default function AboutUs() {
           <p className='otherServicesPara'>
             There are several more services that we provide at Quick Towing!
           </p>
-          <div>
-            <Link to='/OurServices' className='moreServicesBtn'>
-              More Services
-            </Link>
-          </div>
+
+          <Link to='/OurServices' className='moreServicesBtn'>
+            More Services
+          </Link>
         </div>
       </div>
     </div>
