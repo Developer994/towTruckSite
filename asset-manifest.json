@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/towtrucksite/static/css/main.54cc3f72.css",
-    "main.js": "/towtrucksite/static/js/main.bf8a7e40.js",
-    "static/js/50.4e0efa25.chunk.js": "/towtrucksite/static/js/50.4e0efa25.chunk.js",
-    "static/media/mechanic3.jpg": "/towtrucksite/static/media/mechanic3.bca7cc45b53f6932ae9d.jpg",
-    "static/media/abtUsTools.jpg": "/towtrucksite/static/media/abtUsTools.a491ddf470561f4c1e2b.jpg",
-    "static/media/abtUsTire.jpg": "/towtrucksite/static/media/abtUsTire.8843cab0c2c4a9dfd3d8.jpg",
-    "static/media/mechanic1.jpg": "/towtrucksite/static/media/mechanic1.9bfface0832404ed233c.jpg",
-    "static/media/towing.jpg": "/towtrucksite/static/media/towing.c51d1962330939e52d5a.jpg",
-    "static/media/abtUsJumper.jpg": "/towtrucksite/static/media/abtUsJumper.de2517425413a06cda4c.jpg",
-    "static/media/mechanic2.jpg": "/towtrucksite/static/media/mechanic2.99cbf620d73b8149ae31.jpg",
-    "static/media/homeImage.jpg": "/towtrucksite/static/media/homeImage.520885f6e56d93b2cda7.jpg",
-    "static/media/tire.jpg": "/towtrucksite/static/media/tire.ee61b365a97eb79c30f9.jpg",
-    "static/media/jumpers.jpg": "/towtrucksite/static/media/jumpers.4ee7bdcf178e3d9ed9b9.jpg",
-    "static/media/ourRatesIntro.jpg": "/towtrucksite/static/media/ourRatesIntro.ea9353c75d48157c7f0e.jpg",
-    "static/media/mechanic4.jpg": "/towtrucksite/static/media/mechanic4.c424c5255fa5dcebbdd7.jpg",
-    "static/media/abtUsBkg.jpg": "/towtrucksite/static/media/abtUsBkg.9290853d77bf642ca3a8.jpg",
-    "index.html": "/towtrucksite/index.html",
-    "main.54cc3f72.css.map": "/towtrucksite/static/css/main.54cc3f72.css.map",
-    "main.bf8a7e40.js.map": "/towtrucksite/static/js/main.bf8a7e40.js.map",
-    "50.4e0efa25.chunk.js.map": "/towtrucksite/static/js/50.4e0efa25.chunk.js.map"
+    "main.css": "/static/css/main.54cc3f72.css",
+    "main.js": "/static/js/main.85564a1d.js",
+    "static/js/50.4e0efa25.chunk.js": "/static/js/50.4e0efa25.chunk.js",
+    "static/media/mechanic3.jpg": "/static/media/mechanic3.bca7cc45b53f6932ae9d.jpg",
+    "static/media/abtUsTools.jpg": "/static/media/abtUsTools.a491ddf470561f4c1e2b.jpg",
+    "static/media/abtUsTire.jpg": "/static/media/abtUsTire.8843cab0c2c4a9dfd3d8.jpg",
+    "static/media/mechanic1.jpg": "/static/media/mechanic1.9bfface0832404ed233c.jpg",
+    "static/media/towing.jpg": "/static/media/towing.c51d1962330939e52d5a.jpg",
+    "static/media/abtUsJumper.jpg": "/static/media/abtUsJumper.de2517425413a06cda4c.jpg",
+    "static/media/mechanic2.jpg": "/static/media/mechanic2.99cbf620d73b8149ae31.jpg",
+    "static/media/homeImage.jpg": "/static/media/homeImage.520885f6e56d93b2cda7.jpg",
+    "static/media/tire.jpg": "/static/media/tire.ee61b365a97eb79c30f9.jpg",
+    "static/media/jumpers.jpg": "/static/media/jumpers.4ee7bdcf178e3d9ed9b9.jpg",
+    "static/media/ourRatesIntro.jpg": "/static/media/ourRatesIntro.ea9353c75d48157c7f0e.jpg",
+    "static/media/mechanic4.jpg": "/static/media/mechanic4.c424c5255fa5dcebbdd7.jpg",
+    "static/media/abtUsBkg.jpg": "/static/media/abtUsBkg.9290853d77bf642ca3a8.jpg",
+    "index.html": "/index.html",
+    "main.54cc3f72.css.map": "/static/css/main.54cc3f72.css.map",
+    "main.85564a1d.js.map": "/static/js/main.85564a1d.js.map",
+    "50.4e0efa25.chunk.js.map": "/static/js/50.4e0efa25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54cc3f72.css",
-    "static/js/main.bf8a7e40.js"
+    "static/js/main.85564a1d.js"
   ]
 }
