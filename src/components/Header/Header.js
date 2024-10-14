@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className='mainHeaderContainer'>
       <div className='headerContainer'>
-        <Link to='/' className='homeLink'>
+        <Link to='/towTruckSite' className='homeLink'>
           <h1 className='siteName'>Quick Towing</h1>
         </Link>
         <div className='contactContainer'>

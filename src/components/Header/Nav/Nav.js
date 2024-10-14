@@ -40,31 +40,31 @@ export default function Nav() {
         </div>
 
         <div className={`burgerItems ${navMenu ? 'active' : 'inactive'}`}>
-          <Link to='/AboutUs' className='burgerItem'>
+          <Link to='/towTruckSite/AboutUs' className='burgerItem'>
             about us
           </Link>
-          <Link to='/OurServices' className='burgerItem'>
+          <Link to='/towTruckSite/OurServices' className='burgerItem'>
             services
           </Link>
-          <Link to='/Rates' className='burgerItem'>
+          <Link to='/towTruckSite/Rates' className='burgerItem'>
             rates
           </Link>
-          <Link to='/ContactUs' className='burgerItem'>
+          <Link to='/towTruckSite/ContactUs' className='burgerItem'>
             contact us
           </Link>
         </div>
       </div>
       <div className='navContainer'>
-        <Link to='/AboutUs' className='navItem'>
+        <Link to='/towTruckSite/AboutUs' className='navItem'>
           about us
         </Link>
-        <Link to='/OurServices' className='navItem'>
+        <Link to='/towTruckSite/OurServices' className='navItem'>
           services
         </Link>
-        <Link to='/Rates' className='navItem'>
+        <Link to='/towTruckSite/Rates' className='navItem'>
           rates
         </Link>
-        <Link to='/ContactUs' className='navItem'>
+        <Link to='/towTruckSite/ContactUs' className='navItem'>
           contact us
         </Link>
       </div>

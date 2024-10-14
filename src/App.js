@@ -19,22 +19,22 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path='/' element={<Home />}>
+            <Route path='/towTruckSite' element={<Home />}>
               Home
             </Route>
-            <Route path='/AboutUs' element={<AboutUs />}>
+            <Route path='/towTruckSite/AboutUs' element={<AboutUs />}>
               AboutUs
             </Route>
-            <Route path='/ContactUs' element={<ContactUs />}>
+            <Route path='/towTruckSite/ContactUs' element={<ContactUs />}>
               ContactUs
             </Route>
-            <Route path='/OurServices' element={<OurServices />}>
+            <Route path='/towTruckSite/OurServices' element={<OurServices />}>
               OurServices
             </Route>
-            <Route path='/Rates' element={<Rates />}>
+            <Route path='/towTruckSite/Rates' element={<Rates />}>
               Rates
             </Route>
-            <Route path='/Testing' element={<Testing />}></Route>
+            <Route path='/towTruckSite/Testing' element={<Testing />}></Route>
           </Routes>
         </BrowserRouter>
 

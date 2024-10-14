@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/towTruckSite/static/css/main.6bbb7d68.css",
-    "main.js": "/towTruckSite/static/js/main.18ca9c3a.js",
-    "static/js/50.4e0efa25.chunk.js": "/towTruckSite/static/js/50.4e0efa25.chunk.js",
+    "main.css": "/towTruckSite/static/css/main.54cc3f72.css",
+    "main.js": "/towTruckSite/static/js/main.87bb5645.js",
+    "static/js/50.e28d19e3.chunk.js": "/towTruckSite/static/js/50.e28d19e3.chunk.js",
     "static/media/mechanic3.jpg": "/towTruckSite/static/media/mechanic3.bca7cc45b53f6932ae9d.jpg",
     "static/media/abtUsTools.jpg": "/towTruckSite/static/media/abtUsTools.a491ddf470561f4c1e2b.jpg",
     "static/media/abtUsTire.jpg": "/towTruckSite/static/media/abtUsTire.8843cab0c2c4a9dfd3d8.jpg",
@@ -17,12 +17,12 @@
     "static/media/mechanic4.jpg": "/towTruckSite/static/media/mechanic4.c424c5255fa5dcebbdd7.jpg",
     "static/media/abtUsBkg.jpg": "/towTruckSite/static/media/abtUsBkg.9290853d77bf642ca3a8.jpg",
     "index.html": "/towTruckSite/index.html",
-    "main.6bbb7d68.css.map": "/towTruckSite/static/css/main.6bbb7d68.css.map",
-    "main.18ca9c3a.js.map": "/towTruckSite/static/js/main.18ca9c3a.js.map",
-    "50.4e0efa25.chunk.js.map": "/towTruckSite/static/js/50.4e0efa25.chunk.js.map"
+    "main.54cc3f72.css.map": "/towTruckSite/static/css/main.54cc3f72.css.map",
+    "main.87bb5645.js.map": "/towTruckSite/static/js/main.87bb5645.js.map",
+    "50.e28d19e3.chunk.js.map": "/towTruckSite/static/js/50.e28d19e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bbb7d68.css",
-    "static/js/main.18ca9c3a.js"
+    "static/css/main.54cc3f72.css",
+    "static/js/main.87bb5645.js"
   ]
 }
